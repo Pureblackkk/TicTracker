@@ -1,0 +1,36 @@
+Table User:
+------------------
+Col --- UID
+Val --- 
+------------------
+Col --- Device 
+-----------------
+Col --- identity
+
+
+Table Session 
+------------------
+Col --- uid 
+Col --- Session id
+
+
+Table Event 
+------------------
+Col --- Event_id 
+Col ---- Session_id
+Col --- video_id
+
+
+Table Video
+------------------
+Col ---- video_id
+Col ---- path 
+Col ---- content
+Col --- video_type 
+
+Table Video_Person 
+------------------
+Col ---- Session_id
+Col ---- Video_set 
+
+
